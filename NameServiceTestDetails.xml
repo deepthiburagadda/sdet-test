@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SDET Test">
+    <test name="Code Testcases">
+        <parameter name="ValidName" value="Fiji"/>
+        <parameter name="CapitalName" value="Suva"/>
+        <parameter name="Name" value="ik"/>
+        <parameter name="InValidName" value="CAT"/>
+        <parameter name="EmptyName" value=""/>
+        <classes>
+            <class name="com.sdet.test.invokers.NameServiceInvokerTest">
+            </class>
+        </classes>
+    </test>
+</suite>
+

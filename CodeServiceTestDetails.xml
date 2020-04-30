@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SDET Test">
+    <test name="Code Testcases">
+        <parameter name="ValidCode" value="CA"/>
+        <parameter name="ValidThreeLetterCode" value="CAN"/>
+        <parameter name="Capital" value="Ottawa"/>
+        <parameter name="InValidCodeLengthGreaterThanThree" value="CATA"/>
+        <parameter name="InValidCodeLengthLessThanTwo" value="C"/>
+        <parameter name="InValidCode" value="CAT"/>
+        <parameter name="EmptyCode" value=""/>
+        <classes>
+            <class name="com.sdet.test.invokers.CodeServiceInvokerTest">
+            </class>
+        </classes>
+    </test>
+</suite>
+
